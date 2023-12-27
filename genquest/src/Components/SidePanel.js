@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Arrow from './Assets/Arrow.svg';
 import './Styles/SidePanel.css';
 
@@ -7,15 +8,21 @@ function SidePanel() {
     <div id="sidePanel">
       <ol>
         <li>
-          <span>Dashboard</span>
+          <Link to="/Home">
+            <span>Dashboard</span>
+          </Link>
           <img src={Arrow} alt="Arrow" />
         </li>
         <li>
-          <span>Saved Questions</span>
+          <Link to="/SavedQuestion">
+            <span>Saved Questions</span>
+          </Link>
           <img src={Arrow} alt="Arrow" />
         </li>
         <li>
-          <span>My Profile</span>
+          <Link to="/Profile">
+            <span>My Profile</span>
+          </Link>
           <img src={Arrow} alt="Arrow" />
         </li>
       </ol>

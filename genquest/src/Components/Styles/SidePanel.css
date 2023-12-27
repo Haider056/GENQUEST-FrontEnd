@@ -1,32 +1,35 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@500&display=swap');
 
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
+
 #sidePanel {
     margin-top: 20px;
     margin-left: 22px;
-  }
-  
-  #sidePanel ol {
+}
+
+#sidePanel ol {
     list-style-type: none;
-  }
-  
-  #sidePanel li {
+}
+
+#sidePanel li {
     padding-bottom: 25px;
     color: #384D6C;
     font-size: 18px;
     list-style-type: none;
-  }
-  
-  #sidePanel img {
+}
+
+#sidePanel a {
+    text-decoration: none; 
+}
+
+#sidePanel img {
     margin-left: 30px;
-  }
-  
-  #sidePanel span {
+}
+
+#sidePanel span {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Rubik', sans-serif;
-  }
-  
+    font-family: 'Rubik', sans-serif; 
+}

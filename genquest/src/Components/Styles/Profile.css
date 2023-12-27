@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.Container5{
+    display: flex;
+    
+}
+.Form{
+    margin-top: 120px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.header1 img{
+    margin-right: 420px;
+    width: 50px;
+    height: 50px;
+}
+.header1 button{
+    margin-left: 20px;
+}
+.Fields {
+    margin-top:40px ;
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+}
+
+.Fields > div {
+    display: flex;
+    flex-direction: column; 
+}
+
+.Fields label {
+    margin-bottom: 5px;
+    color: #0c0ce5d7;
+}
+.Fields input{
+    width: 400px;
+    
+}
+.Fields2{
+    margin-top: 10px;
+    width: 63.99%;
+    display: flex;
+    flex-direction: column;
+}
+.Fields2 input{
+    width:  100%;
+}
+.Fields2 label{
+    color: #0c0ce5c7;
+}
+.Password {
+    margin-top:4px ;
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+}
+.Password > div {
+    display: flex;
+    flex-direction: column; 
+}
+
+.Password label {
+    margin-bottom: 5px;
+    color: #0c0ce5cf;
+}
+.Password input{
+    width: 400px;
+}
+.Submit{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 500px;
+}
+.Submit button{
+    margin-left: 20px;
+    
+}
+#dark{
+background-color: #384D6C;
+padding: 15px;
+}
+#Light{
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    border-style: solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
