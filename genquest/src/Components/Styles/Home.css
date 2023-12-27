@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Containerr {
+  display: flex;
+  align-items: center;
+
+}
+
+.Home {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Home img {
+  width: 140px;
+  height: 100px;
+  margin-right: 150px;
+}
+
+.Signout {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 80px;
+}
+.Signout button{
+  margin-right: 20px;
+  padding: 10px 40px;
+  color: black;
+  border: 2px solid black; 
+  border-radius: 12px;
+  background-color: transparent; 
+  cursor: pointer; 
+  font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+
+.Container2 {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+  justify-content: center;
+}
+.Input input{
+  padding: 90px 50px 90px 50px;
+}
+.InputFields{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.InputFields2{
+  margin-left: 60px;
+ 
+}
+.InputFields2 input{
+  padding: 240px 90px 250px 90px;
+} 
